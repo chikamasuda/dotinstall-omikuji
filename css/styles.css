@@ -1,3 +1,7 @@
+body {
+    background: #efefef;
+}
+
 #btn {
     width: 200px;
     height: 200px;
@@ -11,6 +15,10 @@
     cursor: pointer;
     box-shadow: 0 10px 0 #d1483e;
     user-select: none;
+}
+
+#btn:hover {
+  opacity: 0.9;
 }
 
 #btn:active {
